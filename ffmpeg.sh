@@ -51,6 +51,7 @@ echo -e "${RED} Removing old sources ${RESET}"
                 --enable-libmp3lame\
                 --enable-libopus\
                 --enable-libvorbis\
+                --enable-libtheora\
                 --enable-libvpx\
                 --enable-libx264
     make -j${CPUS} && make install

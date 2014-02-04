@@ -20,6 +20,14 @@ RED='\033[01;31m'
 GREEN='\033[01;32m'
 RESET='\033[0m'
 
+SDIR='/usr/src/ffmpeg_sources'
+
+# Install prerequisites
+yum install autoconf automake gcc gcc-c++ git libtool make nasm pkgconfig zlib-devel
+
+# Create directory for sources
+mkdir -p ${SDIR}
+
 # x264
 sh x264.sh
 # fdk_aac
@@ -32,6 +40,8 @@ sh opus.sh
 sh libogg.sh
 # libvorbis
 sh libvorbis.sh
+# libtheora
+sh libtheora.sh
 # libvpx
 sh libvpx.sh
 # ffmpeg
