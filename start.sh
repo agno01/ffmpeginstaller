@@ -46,4 +46,6 @@ sh libtheora.sh
 sh libvpx.sh
 # ffmpeg
 sh ffmpeg.sh
+# gpac (mp4box)
+sh gpac.sh
 
