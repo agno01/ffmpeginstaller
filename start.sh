@@ -31,7 +31,7 @@ mkdir -p ${SDIR}
 # x264
 sh x264.sh
 # fdk_aac
-sh fdk_aac.sh
+sh fdk-aac.sh
 # lame
 sh lame.sh
 # opus
