@@ -53,7 +53,9 @@ echo -e "${RED} Removing old sources ${RESET}"
                 --enable-libvorbis\
                 --enable-libtheora\
                 --enable-libvpx\
-                --enable-libx264
+                --enable-libx264\
+                --enable-libfreetype\
+                --enable-libspeex
     make -j${CPUS} && make install
     make distclean
 
