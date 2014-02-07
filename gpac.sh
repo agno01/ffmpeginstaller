@@ -45,6 +45,8 @@ echo -e "${RED} Removing old sources ${RESET}"
                 --extra-cflags="-I${DDIR}/include"\
                 --extra-ldflags="-L${DDIR}/lib"\
                 --bindir="${DDIR}/bin"\
+                --enable-static-bin\
+                --static-mp4box\
                 --disable-opengl\
                 --use-js=no\
                 --use-ft=no\

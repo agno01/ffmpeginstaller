@@ -23,7 +23,7 @@ RESET='\033[0m'
 SDIR='/usr/src/ffmpeg_sources'
 
 # Install prerequisites
-yum install autoconf automake gcc gcc-c++ git libtool make nasm pkgconfig zlib-devel
+yum install autoconf automake gcc gcc-c++ git libtool make nasm pkgconfig yasm zlib-devel
 
 # Create directory for sources
 mkdir -p ${SDIR}
