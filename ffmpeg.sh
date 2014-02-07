@@ -48,7 +48,6 @@ echo -e "${RED} Removing old sources ${RESET}"
                 --enable-gpl\
                 --enable-nonfree\
                 --enable-libfdk_aac\
-                --enable-libfaac\
                 --enable-libmp3lame\
                 --enable-libopus\
                 --enable-libvorbis\
