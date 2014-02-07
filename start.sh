@@ -23,7 +23,7 @@ RESET='\033[0m'
 SDIR='/usr/src/ffmpeg_sources'
 
 # Install prerequisites
-yum -y install autoconf automake faac-devel freetype-devel gcc gcc-c++ git libtool make mesa-libGL-devel mesa-libGLU-devel nasm pkgconfig speex-devel yasm zlib-devel
+yum -y install autoconf automake faac-devel freetype-devel gcc gcc-c++ git libjpeg-turbo-devel libtool make mesa-libGL-devel mesa-libGLU-devel nasm pkgconfig speex-devel yasm zlib-devel
 
 # Create directory for sources
 mkdir -p ${SDIR}
